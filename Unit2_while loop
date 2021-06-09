@@ -1,0 +1,123 @@
+#while loop
+
+i=1
+while i<=10:
+           print(i)
+           i=i+1
+#example2
+
+i=10
+while i>=1:
+           print(i)
+           i=i-1
+#example3
+
+i=1
+sum1=0
+while i<=10:
+           sum1=sum1+i
+           i=i+1
+print(sum1)
+
+#example4
+
+i=1
+while i<=10:
+           if i%2==0:
+                   print(i)
+           i=i+1
+#example5
+sum1=0
+i=1
+while i<=10:
+           if i%2==1:
+                    sum1=sum1+i
+           i=i+1
+print(sum1)
+
+#example6
+
+sum1=0
+i=1
+while i<=10:
+           if i%2==0:
+                    sum1=sum1+i
+           i=i+1
+print(sum1) 
+
+#example7
+
+n=int(input("enter a number"))
+i=1
+while i<=n:
+           if n%i==0:
+                    print(i)
+           i=i+1
+#example8
+
+n=int(input("enter a number"))
+i=1
+fact=0
+while i<=n:
+           if n%i==0:
+                    fact=fact+1
+           i=i+1
+if fact==2:
+           print("prime number")
+else:
+           print("not prime number")
+
+#example9
+
+n=int(input("enter number to be reversed"))
+i=1
+reverse=0
+while n>0:
+         rem=n%10
+         reverse=reverse*10+rem
+         n=n//10
+print(reverse)
+
+OUTPUT:
+
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+55
+2
+4
+6
+8
+10
+25
+30
+enter a number12
+1
+2
+3
+4
+6
+12
+enter a number234
+not prime number
+enter number to be reversed34557
+75543
+
