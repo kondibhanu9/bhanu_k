@@ -1,0 +1,168 @@
+#variables declaration
+a=10
+b=4.5
+c='python'
+print(type(a))
+print(type(b))
+print(type(c))
+#operators
+a=10
+b=20
+c=a+b
+print(c)
+c=a-b
+print(c)
+c=a*b
+print(c)
+c=a//b
+print(c)
+c=a/b
+print(c)
+#conversions
+
+a=int("10111",base=2)
+print(a)
+print(type(a))
+b=int("10111",base=8)
+print(b) 
+print(type(b))
+c=int("10111",base=16)
+print(c)
+print(type(c))
+
+#expressions
+
+a=int(raw_input("enter an integer"))
+b=int(raw_input("enter an integer"))
+c=float(raw_input("enter float value"))
+d=long(raw_input("enter long value"))
+result=a+b
+print("result is %s"%(result)) 
+print("type of expression  is %s"%type(result))
+result1=a+b+c
+print(result1)
+print("type of expression is %s"%type(result1))
+result2=a+b+d
+print(result2)
+print("type of expression is %s"%type(result2)) 
+result3=c+d
+print(result3)
+print("type of expression is %s"%type(result3))
+
+#boolean variables
+
+a=10
+b=20
+print(a<b)
+print(type(a<b))
+print(a>b)
+print(type(a>b))
+
+#another program
+
+a=0
+print(type(a))
+b=1
+print(type(b))
+
+#reading input from user
+
+a=int(raw_input("enter a value"))
+b=int(raw_input("enter b value"))
+c=a+b
+print(c)
+c=a*b
+print(c)
+c=a//b
+print(c)
+
+#float values
+
+a=float(raw_input("enter a value"))
+b=float(raw_input("enter b value"))
+c=a+b
+print(c)
+c=a*b
+print(c)
+c=a//b
+print(c)
+
+#converting strings to integer
+
+a="10"
+print(a)
+print(type(a))
+a=int(a)
+print(type(a))
+
+
+OUTPUT:
+
+<type 'int'>
+<type 'float'>
+<type 'str'>
+30
+-10
+200
+0
+0
+23
+<type 'int'>
+4169
+<type 'int'>
+65809
+<type 'int'>
+enter an integer2
+enter an integer12
+enter float value34.5
+enter long value123467
+result is 14
+type of expression  is <type 'int'>
+48.5
+type of expression is <type 'float'>
+123481
+type of expression is <type 'long'>
+123501.5
+type of expression is <type 'float'>
+True
+<type 'bool'>
+False
+<type 'bool'>
+<type 'int'>
+<type 'int'>
+enter a value12
+enter b value4
+16
+48
+3
+enter a value124.5
+enter b value 123.5
+248.0
+15375.75
+1.0
+10
+<type 'str'>
+<type 'int'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
